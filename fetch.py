@@ -467,7 +467,6 @@ if __name__ == '__main__':
         json.dump(
             data,
             outfile,
-            indent=4,
             sort_keys=True
         )
 
