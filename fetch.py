@@ -463,9 +463,14 @@ def parse_html_files():
                         'year': year
                     })
 
-    # sort data by year, then category
+    # sort data
     data.sort(
-        key=lambda x: (x.get('year'), x.get('category'))
+        key=lambda x: (
+            x.get('year'),
+            x.get('category'),
+            x.get('subcategory'),
+            x.get('award_status')
+        )
     )
 
     with open(FILEPATH_CSV, 'w') as outfile:
