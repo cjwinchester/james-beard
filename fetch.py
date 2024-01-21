@@ -275,7 +275,7 @@ def parse_html_files():
 
                         publisher = ''
 
-                    publisher = publisher.lstrip('()').rstrip(')')
+                    publisher = publisher.lstrip('(').rstrip(')')
 
                     award_data = {
                         'recipient_id': recipient_id,
