@@ -4,10 +4,12 @@ from urllib.parse import urlparse, parse_qs
 import time
 import random
 import glob
+import json
 import csv
 
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 
 
 URL = 'https://www.jamesbeard.org/awards/search'
@@ -130,6 +132,13 @@ def download_search_results(year):
 
 def parse_html_files():
 
+    # load up a lookup dict for fixes
+    with open('fixes.json', 'r') as infile:
+        fixes = json.load(infile)
+
+    updates = fixes.get('fixes')
+    dupes = list(fixes.get('duplicates').keys())
+
     data = []
 
     html_files = glob.glob(f'{HTML_DIR}/*.html')
@@ -152,12 +161,18 @@ def parse_html_files():
 
             for res in results:
 
+                award_data = {}
+
                 # the data returned for each entry is
                 # determined by its template
                 tmpl = res.get('data-award-template')
 
                 # unique identifier for award recipients
                 recipient_id = int(res.get('data-award-recipient-id'))
+
+                # skip duplicates
+                if str(recipient_id) in dupes:
+                    continue
 
                 # each entry is a pile of grafs
                 grafs = res.find_all('p')
@@ -176,7 +191,7 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': category,
@@ -184,7 +199,7 @@ def parse_html_files():
                         'publication': publication,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'journalism.publication' in tmpl:
 
@@ -197,14 +212,14 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': category,
                         'subcategory': subcategory,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'broadcast-media' in tmpl:
 
@@ -220,7 +235,7 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': category,
@@ -229,7 +244,7 @@ def parse_html_files():
                         'company': company_name,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'book' in tmpl:
 
@@ -260,7 +275,7 @@ def parse_html_files():
 
                         publisher = None
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': category,
@@ -269,7 +284,7 @@ def parse_html_files():
                         'publisher': publisher,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'leadership' in tmpl:
 
@@ -283,14 +298,14 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': 'Leadership',
                         'project': project_name,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'rnc.lifetime-achievement' in tmpl:
 
@@ -304,7 +319,7 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': 'Restaurant & Chef',
@@ -313,7 +328,7 @@ def parse_html_files():
                         'location': location,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'rnc.humanitarian' in tmpl:
 
@@ -325,14 +340,14 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': 'Restaurant & Chef',
                         'subcategory': subcategory,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'rnc.americas-classics' in tmpl:
 
@@ -346,7 +361,7 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': 'Restaurant & Chef',
@@ -354,7 +369,7 @@ def parse_html_files():
                         'location': location,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'rnc.design' in tmpl:
 
@@ -385,7 +400,7 @@ def parse_html_files():
 
                         restaurant_name = None
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': 'Restaurant & Chef',
@@ -394,7 +409,7 @@ def parse_html_files():
                         'location': location,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'rnc.restaurant' in tmpl:
 
@@ -408,7 +423,7 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': 'Restaurant & Chef',
@@ -416,7 +431,7 @@ def parse_html_files():
                         'location': location,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'rnc.person' in tmpl:
 
@@ -431,7 +446,7 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': 'Restaurant & Chef',
@@ -440,7 +455,7 @@ def parse_html_files():
                         'location': location,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
                 if 'rnc.whos-who' in tmpl:
 
@@ -453,7 +468,7 @@ def parse_html_files():
                         yeartext
                     ) = values
 
-                    data.append({
+                    award_data = {
                         'recipient_id': recipient_id,
                         'recipient_name': name,
                         'category': 'Restaurant & Chef',
@@ -461,27 +476,35 @@ def parse_html_files():
                         'location': location,
                         'award_status': award_status,
                         'year': year
-                    })
+                    }
 
-    # sort data
-    data.sort(
-        key=lambda x: (
-            x.get('year'),
-            x.get('category'),
-            x.get('subcategory'),
-            x.get('award_status')
-        )
+                if award_data:
+                    data_fixes = updates.get(str(recipient_id))
+
+                    if data_fixes:
+                        updates = data_fixes.get('updates')
+                        award_data = {**award_data, **updates}
+
+                        if not award_data.get('recipient_name'):
+                            raise Exception(f'Entry No. {recipient_id} is missing a `recipient_name`')  # noqa
+
+                    data.append(award_data)
+
+    df = pd.DataFrame(data)
+
+    df.sort_values(
+        ['year', 'category', 'subcategory', 'award_status'],
+        ascending=True,
+        inplace=True
     )
 
-    with open(FILEPATH_CSV, 'w') as outfile:
-        writer = csv.DictWriter(
-            outfile,
-            fieldnames=CSV_HEADERS
-        )
-        writer.writeheader()
-        writer.writerows(data)
+    df.drop_duplicates(
+        subset=[x for x in df.columns if x != 'recipient_id']
+    )
 
-    print(f'Wrote {FILEPATH_CSV}')
+    df.to_csv(FILEPATH_CSV, index=False)
+
+    print(f'Wrote {len(df):,} records to `{FILEPATH_CSV}`')
 
     return data
 

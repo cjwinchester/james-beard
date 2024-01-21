@@ -1,0 +1,637 @@
+{
+    "fixes": {
+        "47776": {
+            "updates": {
+                "recipient_name": "Steven Solomon"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/2009_Nominees.pdf"
+        },
+        "47724": {
+            "updates": {
+                "recipient_name": "Steven Solomon"
+            },
+            "source": "https://www.eater.com/2010/3/22/6739567/2010-james-beard-awards-final-nominees-announced"
+        },
+        "52782": {
+            "updates": {
+                "recipient_name": "Bryant's Cocktail Lounge"
+            },
+            "source": "https://onmilwaukee.com/articles/jamesbeard2013"
+        },
+        "52404": {
+            "updates": {
+                "recipient_name": "Commune"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/2013-James-Beard-Awards-Nominees-Press-Release-Final.pdf"
+        },
+        "52626": {
+            "updates": {
+                "recipient_name": "The 404 Kitchen"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52642": {
+            "updates": {
+                "recipient_name": "The Cavalier"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52658": {
+            "updates": {
+                "recipient_name": "The Elm"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52703": {
+            "updates": {
+                "recipient_name": "Coqueta"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52708": {
+            "updates": {
+                "recipient_name": "Trois Mec"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52713": {
+            "updates": {
+                "recipient_name": "Uncle Boons"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52725": {
+            "updates": {
+                "recipient_name": "Virtù"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52496": {
+            "updates": {
+                "recipient_name": "Laurel"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52520": {
+            "updates": {
+                "recipient_name": "MilkWood"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52526": {
+            "updates": {
+                "recipient_name": "MW"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52531": {
+            "updates": {
+                "recipient_name": "Nico Osteria"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52564": {
+            "updates": {
+                "recipient_name": "Pinewood Social"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52589": {
+            "updates": {
+                "recipient_name": "Ribelle"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52595": {
+            "updates": {
+                "recipient_name": "Rose's Luxury"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52603": {
+            "updates": {
+                "recipient_name": "Serpico"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52346": {
+            "updates": {
+                "recipient_name": "Bar Agricole"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52695": {
+            "updates": {
+                "recipient_name": "The Violet Hour"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52403": {
+            "updates": {
+                "recipient_name": "Clyde Common"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52506": {
+            "updates": {
+                "recipient_name": "Maison Premiere"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52334": {
+            "updates": {
+                "recipient_name": "Arnaud's French 75 Bar"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52371": {
+            "updates": {
+                "recipient_name": "Butcher and the Rye"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52621": {
+            "updates": {
+                "recipient_name": "Taste"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52639": {
+            "updates": {
+                "recipient_name": "The Broken Shaker"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52645": {
+            "updates": {
+                "recipient_name": "Columbia Room inside the Passenger"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52648": {
+            "updates": {
+                "recipient_name": "The Dead Rabbit"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52664": {
+            "updates": {
+                "recipient_name": "The Franklin Mortgage & Investment Co."
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52671": {
+            "updates": {
+                "recipient_name": "The Hawthorne"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52686": {
+            "updates": {
+                "recipient_name": "The Porter Beer Bar"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52694": {
+            "updates": {
+                "recipient_name": "Varnish"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52707": {
+            "updates": {
+                "recipient_name": "Trick Dog"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52731": {
+            "updates": {
+                "recipient_name": "Williams & Graham"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52413": {
+            "updates": {
+                "recipient_name": "Cure"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52464": {
+            "updates": {
+                "recipient_name": "Hard Water"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52486": {
+            "updates": {
+                "recipient_name": "Kimball House"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52513": {
+            "updates": {
+                "recipient_name": "Marvel Bar"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52593": {
+            "updates": {
+                "recipient_name": "Rivera"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52594": {
+            "updates": {
+                "recipient_name": "Rogue 24"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52613": {
+            "updates": {
+                "recipient_name": "Spiaggia"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52726": {
+            "updates": {
+                "recipient_name": "wd~50"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52467": {
+            "updates": {
+                "recipient_name": "Hearth"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52352": {
+            "updates": {
+                "recipient_name": "Bern's Steak House"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52384": {
+            "updates": {
+                "recipient_name": "Canlis"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52624": {
+            "updates": {
+                "recipient_name": "Terra"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52661": {
+            "updates": {
+                "recipient_name": "The Fearrington House Restaurant"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52722": {
+            "updates": {
+                "recipient_name": "Vidalia"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52566": {
+            "updates": {
+                "recipient_name": "Pizzeria Bianco"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52444": {
+            "updates": {
+                "recipient_name": "Fore Street"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52447": {
+            "updates": {
+                "recipient_name": "Foreign Cinema"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52449": {
+            "updates": {
+                "recipient_name": "Fork"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52459": {
+            "updates": {
+                "recipient_name": "Greens"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52462": {
+            "updates": {
+                "recipient_name": "Hamersley’s Bistro"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52477": {
+            "updates": {
+                "recipient_name": "Jaleo"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52503": {
+            "updates": {
+                "recipient_name": "Mélisse"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52548": {
+            "updates": {
+                "recipient_name": "Pearl Oyster Bar"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52572": {
+            "updates": {
+                "recipient_name": "Primo"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52358": {
+            "updates": {
+                "recipient_name": "Blue Hill"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52702": {
+            "updates": {
+                "recipient_name": "Topolobampo"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52719": {
+            "updates": {
+                "recipient_name": "Vetri"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52580": {
+            "updates": {
+                "recipient_name": "Quince"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52341": {
+            "updates": {
+                "recipient_name": "Bacchanalia"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52365": {
+            "updates": {
+                "recipient_name": "Brigtsen's"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52374": {
+            "updates": {
+                "recipient_name": "Cafe Juanita"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52489": {
+            "updates": {
+                "recipient_name": "Komi"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52490": {
+            "updates": {
+                "recipient_name": "L2O"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52498": {
+            "updates": {
+                "recipient_name": "L'Espalier"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52502": {
+            "updates": {
+                "recipient_name": "Lucques"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52508": {
+            "updates": {
+                "recipient_name": "Mansion Restaurant at Rosewood Mansion on Turtle Creek"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52511": {
+            "updates": {
+                "recipient_name": "Marcel's"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52516": {
+            "updates": {
+                "recipient_name": "McCrady's"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52539": {
+            "updates": {
+                "recipient_name": "One Flew South"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52555": {
+            "updates": {
+                "recipient_name": "Persimmon"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52576": {
+            "updates": {
+                "recipient_name": "Providence"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "52584": {
+            "updates": {
+                "recipient_name": "Restaurant Alma"
+            },
+            "source": "https://www.jamesbeard.org/blog/2014-restaurant-and-chef-award-semifinalists"
+        },
+        "53756": {
+            "updates": {
+                "recipient_name": "Alter"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53760": {
+            "updates": {
+                "recipient_name": "Bardot Brasserie"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53761": {
+            "updates": {
+                "recipient_name": "Baroo"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53762": {
+            "updates": {
+                "recipient_name": "The Blanchard"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53763": {
+            "updates": {
+                "recipient_name": "Bracero Cocina de Raíz"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53764": {
+            "updates": {
+                "recipient_name": "Cala"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53765": {
+            "updates": {
+                "recipient_name": "Cassia"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53766": {
+            "updates": {
+                "recipient_name": "Coquine"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53767": {
+            "updates": {
+                "recipient_name": "The Dabney"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53768": {
+            "updates": {
+                "recipient_name": "Eloisa"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53769": {
+            "updates": {
+                "recipient_name": "Girin Steakhouse & Ssam Bar"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53770": {
+            "updates": {
+                "recipient_name": "Helen Greek Food and Wine"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53771": {
+            "updates": {
+                "recipient_name": "The Honey Paw"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53772": {
+            "updates": {
+                "recipient_name": "Intro"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53773": {
+            "updates": {
+                "recipient_name": "Kinship"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53774": {
+            "updates": {
+                "recipient_name": "Mabel Gray"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53775": {
+            "updates": {
+                "recipient_name": "Morcilla"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53776": {
+            "updates": {
+                "recipient_name": "Público"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53777": {
+            "updates": {
+                "recipient_name": "Shepard"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "53778": {
+            "updates": {
+                "recipient_name": "Superiority Burger"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/JBF%20Semifinalists%20Press%20Release%20Final%203.pdf"
+        },
+        "50775": {
+            "updates": {
+                "recipient_name": "Jeff Guga, Jon Shook, Vinny Dotolo and Helen Johannesen"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/archive/jbf-2013/pressreleases/2016%20James%20Beard%20Awards%20Nominees%20Press%20Release%20Final%20wnames.pdf"
+        },
+        "25564": {
+            "updates": {
+                "recipient_name": "Michael Nelson"
+            },
+            "source": "https://jbf-media.s3.amazonaws.com/production/pressreleases/2.24.2022%20-%20FINAL%20Restaurant%20and%20Chef%20Semifinalists%20Press%20Release%20Update.pdf"
+        }
+    },
+    "duplicates": {
+        "52978": "46664",
+        "53201": "45980",
+        "53203": "47063",
+        "53204": "47062",
+        "53205": "47061",
+        "48624": "48625",
+        "53212": "47005",
+        "53213": "46582",
+        "53214": "46580",
+        "53216": "47003",
+        "53206": "45858",
+        "53207": "46600",
+        "53208": "45857",
+        "53137": "53136",
+        "53211": "47075",
+        "52754": "45897",
+        "52755": "45898",
+        "52756": "45899",
+        "52757": "45900",
+        "52758": "45910",
+        "52759": "45966",
+        "52762": "45057",
+        "52763": "43171",
+        "47622": "44553",
+        "52766": "45969",
+        "52767": "45914",
+        "52768": "44553",
+        "52770": "45915",
+        "52771": "46029",
+        "52772": "46030",
+        "52773": "46031",
+        "52774": "46032",
+        "50902": "50775",
+        "50903": "50775",
+        "23623": "23585",
+        "23902": "23903",
+        "25808": "25797"
+    }
+}
