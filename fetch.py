@@ -273,7 +273,9 @@ def parse_html_files():
                             yeartext
                         ) = values
 
-                        publisher = None
+                        publisher = ''
+
+                    publisher = publisher.lstrip('()').rstrip(')')
 
                     award_data = {
                         'recipient_id': recipient_id,
@@ -482,11 +484,13 @@ def parse_html_files():
                     data_fixes = updates.get(str(recipient_id))
 
                     if data_fixes:
-                        updates = data_fixes.get('updates')
-                        award_data = {**award_data, **updates}
+                        award_data = {
+                            **award_data,
+                            **data_fixes.get('updates')
+                        }
 
-                        if not award_data.get('recipient_name'):
-                            raise Exception(f'Entry No. {recipient_id} is missing a `recipient_name`')  # noqa
+                    if not award_data.get('recipient_name'):
+                        raise Exception(f'Entry No. {recipient_id} is missing a `recipient_name`')  # noqa
 
                     data.append(award_data)
 
