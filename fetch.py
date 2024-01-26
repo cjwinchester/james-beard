@@ -5,7 +5,6 @@ import time
 import random
 import glob
 import json
-import csv
 
 import requests
 from bs4 import BeautifulSoup
